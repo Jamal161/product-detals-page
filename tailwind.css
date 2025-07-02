@@ -1,0 +1,183 @@
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .all-\[unset\] {
+    all: unset;
+  }
+  
+  .line-clamp-4 {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+}
+
+:root {
+  --body-lg-medium-font-family: "Poppins", Helvetica;
+  --body-lg-medium-font-size: 16px;
+  --body-lg-medium-font-style: normal;
+  --body-lg-medium-font-weight: 500;
+  --body-lg-medium-letter-spacing: 0px;
+  --body-lg-medium-line-height: 24px;
+  --body-lg-regular-font-family: "Onest", Helvetica;
+  --body-lg-regular-font-size: 16px;
+  --body-lg-regular-font-style: normal;
+  --body-lg-regular-font-weight: 400;
+  --body-lg-regular-letter-spacing: 0px;
+  --body-lg-regular-line-height: 24px;
+  --body-md-medium-font-family: "Onest", Helvetica;
+  --body-md-medium-font-size: 14px;
+  --body-md-medium-font-style: normal;
+  --body-md-medium-font-weight: 500;
+  --body-md-medium-letter-spacing: 0px;
+  --body-md-medium-line-height: 20px;
+  --body-md-regular-font-family: "Onest", Helvetica;
+  --body-md-regular-font-size: 14px;
+  --body-md-regular-font-style: normal;
+  --body-md-regular-font-weight: 400;
+  --body-md-regular-letter-spacing: 0px;
+  --body-md-regular-line-height: 20px;
+  --body-sm-medium-font-family: "Onest", Helvetica;
+  --body-sm-medium-font-size: 12px;
+  --body-sm-medium-font-style: normal;
+  --body-sm-medium-font-weight: 500;
+  --body-sm-medium-letter-spacing: 0px;
+  --body-sm-medium-line-height: 18px;
+  --body-sm-regular-font-family: "Onest", Helvetica;
+  --body-sm-regular-font-size: 12px;
+  --body-sm-regular-font-style: normal;
+  --body-sm-regular-font-weight: 400;
+  --body-sm-regular-letter-spacing: 0px;
+  --body-sm-regular-line-height: 18px;
+  --body-xl-medium-font-family: "Onest", Helvetica;
+  --body-xl-medium-font-size: 18px;
+  --body-xl-medium-font-style: normal;
+  --body-xl-medium-font-weight: 500;
+  --body-xl-medium-letter-spacing: 0px;
+  --body-xl-medium-line-height: 28px;
+  --foundation-primaryprimary-50: rgba(230, 248, 244, 1);
+  --foundation-primaryprimary-600: rgba(0, 167, 136, 1);
+  --foundationerror-400: rgba(248, 113, 113, 1);
+  --foundationerror500-main: rgba(239, 68, 68, 1);
+  --foundationinfo500-main: rgba(59, 130, 246, 1);
+  --foundationneutral-100: rgba(241, 245, 249, 1);
+  --foundationneutral-200: rgba(226, 232, 240, 1);
+  --foundationneutral-300: rgba(203, 213, 225, 1);
+  --foundationneutral-400: rgba(148, 163, 184, 1);
+  --foundationneutral-600: rgba(71, 85, 105, 1);
+  --foundationneutral-700: rgba(51, 65, 85, 1);
+  --foundationneutral-900: rgba(15, 23, 42, 1);
+  --foundationneutral500-main: rgba(100, 116, 139, 1);
+  --foundationprimaryprimary-500-main: rgba(0, 183, 149, 1);
+  --foundationwarning500-main: rgba(234, 179, 8, 1);
+  --foundationwhite: rgba(255, 255, 255, 1);
+  --heading-h5-medium-font-family: "Onest", Helvetica;
+  --heading-h5-medium-font-size: 24px;
+  --heading-h5-medium-font-style: normal;
+  --heading-h5-medium-font-weight: 500;
+  --heading-h5-medium-letter-spacing: 0px;
+  --heading-h5-medium-line-height: 32px;
+  --heading-h5-semibold-font-family: "Onest", Helvetica;
+  --heading-h5-semibold-font-size: 24px;
+  --heading-h5-semibold-font-style: normal;
+  --heading-h5-semibold-font-weight: 600;
+  --heading-h5-semibold-letter-spacing: 0px;
+  --heading-h5-semibold-line-height: 32px;
+  --heading-h6-semibold-font-family: "Onest", Helvetica;
+  --heading-h6-semibold-font-size: 20px;
+  --heading-h6-semibold-font-style: normal;
+  --heading-h6-semibold-font-weight: 600;
+  --heading-h6-semibold-letter-spacing: 0px;
+  --heading-h6-semibold-line-height: 28px;
+  --neutral-colors400: rgba(214, 220, 229, 1);
+  --neutral-colorswhite: rgba(255, 255, 255, 1);
+  --paymentsmastercardyellow: rgba(247, 158, 27, 1);
+  --paymentsvisablue: rgba(20, 52, 203, 1);
+  --shadow-light-md: 0px 2px 4px -4px rgba(15, 28, 51, 0.04), 0px 3px 8px -2px
+    rgba(15, 28, 51, 0.1);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 47.4% 11.2%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+
+    --card: transparent;
+    --card-foreground: 222.2 47.4% 11.2%;
+
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 100% 50%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 215 20.2% 65.1%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 224 71% 4%;
+    --foreground: 213 31% 91%;
+
+    --muted: 223 47% 11%;
+    --muted-foreground: 215.4 16.3% 56.9%;
+
+    --accent: 216 34% 17%;
+    --accent-foreground: 210 40% 98%;
+
+    --popover: 224 71% 4%;
+    --popover-foreground: 215 20.2% 65.1%;
+
+    --border: 216 34% 17%;
+    --input: 216 34% 17%;
+
+    --card: transparent;
+    --card-foreground: 213 31% 91%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 1.2%;
+
+    --secondary: 222.2 47.4% 11.2%;
+    --secondary-foreground: 210 40% 98%;
+
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 216 34% 17%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}

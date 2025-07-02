@@ -1,0 +1,111 @@
+module.exports = {
+  content: [
+    "./src/**/*.{html,js,ts,jsx,tsx}",
+    "app/**/*.{ts,tsx}",
+    "components/**/*.{ts,tsx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        "foundation-primaryprimary-50": "var(--foundation-primaryprimary-50)",
+        "foundation-primaryprimary-600": "var(--foundation-primaryprimary-600)",
+        "foundationerror-400": "var(--foundationerror-400)",
+        "foundationerror500-main": "var(--foundationerror500-main)",
+        "foundationinfo500-main": "var(--foundationinfo500-main)",
+        "foundationneutral-100": "var(--foundationneutral-100)",
+        "foundationneutral-200": "var(--foundationneutral-200)",
+        "foundationneutral-300": "var(--foundationneutral-300)",
+        "foundationneutral-400": "var(--foundationneutral-400)",
+        "foundationneutral-600": "var(--foundationneutral-600)",
+        "foundationneutral-700": "var(--foundationneutral-700)",
+        "foundationneutral-900": "var(--foundationneutral-900)",
+        "foundationneutral500-main": "var(--foundationneutral500-main)",
+        "foundationprimaryprimary-500-main":
+          "var(--foundationprimaryprimary-500-main)",
+        "foundationwarning500-main": "var(--foundationwarning500-main)",
+        foundationwhite: "var(--foundationwhite)",
+        "neutral-colors400": "var(--neutral-colors400)",
+        "neutral-colorswhite": "var(--neutral-colorswhite)",
+        paymentsmastercardyellow: "var(--paymentsmastercardyellow)",
+        paymentsvisablue: "var(--paymentsvisablue)",
+        border: "hsl(var(--border))",
+        input: "hsl(var(--input))",
+        ring: "hsl(var(--ring))",
+        background: "hsl(var(--background))",
+        foreground: "hsl(var(--foreground))",
+        primary: {
+          DEFAULT: "hsl(var(--primary))",
+          foreground: "hsl(var(--primary-foreground))",
+        },
+        secondary: {
+          DEFAULT: "hsl(var(--secondary))",
+          foreground: "hsl(var(--secondary-foreground))",
+        },
+        destructive: {
+          DEFAULT: "hsl(var(--destructive))",
+          foreground: "hsl(var(--destructive-foreground))",
+        },
+        muted: {
+          DEFAULT: "hsl(var(--muted))",
+          foreground: "hsl(var(--muted-foreground))",
+        },
+        accent: {
+          DEFAULT: "hsl(var(--accent))",
+          foreground: "hsl(var(--accent-foreground))",
+        },
+        popover: {
+          DEFAULT: "hsl(var(--popover))",
+          foreground: "hsl(var(--popover-foreground))",
+        },
+        card: {
+          DEFAULT: "hsl(var(--card))",
+          foreground: "hsl(var(--card-foreground))",
+        },
+      },
+      fontFamily: {
+        "body-lg-medium": "var(--body-lg-medium-font-family)",
+        "body-lg-regular": "var(--body-lg-regular-font-family)",
+        "body-md-medium": "var(--body-md-medium-font-family)",
+        "body-md-regular": "var(--body-md-regular-font-family)",
+        "body-sm-medium": "var(--body-sm-medium-font-family)",
+        "body-sm-regular": "var(--body-sm-regular-font-family)",
+        "body-xl-medium": "var(--body-xl-medium-font-family)",
+        "heading-h5-medium": "var(--heading-h5-medium-font-family)",
+        "heading-h5-semibold": "var(--heading-h5-semibold-font-family)",
+        "heading-h6-semibold": "var(--heading-h6-semibold-font-family)",
+        sans: [
+          "ui-sans-serif",
+          "system-ui",
+          "sans-serif",
+          '"Apple Color Emoji"',
+          '"Segoe UI Emoji"',
+          '"Segoe UI Symbol"',
+          '"Noto Color Emoji"',
+        ],
+      },
+      boxShadow: { "shadow-light-md": "var(--shadow-light-md)" },
+      borderRadius: {
+        lg: "var(--radius)",
+        md: "calc(var(--radius) - 2px)",
+        sm: "calc(var(--radius) - 4px)",
+      },
+      keyframes: {
+        "accordion-down": {
+          from: { height: "0" },
+          to: { height: "var(--radix-accordion-content-height)" },
+        },
+        "accordion-up": {
+          from: { height: "var(--radix-accordion-content-height)" },
+          to: { height: "0" },
+        },
+      },
+      animation: {
+        "accordion-down": "accordion-down 0.2s ease-out",
+        "accordion-up": "accordion-up 0.2s ease-out",
+      },
+    },
+    container: { center: true, padding: "2rem", screens: { "2xl": "1400px" } },
+  },
+  plugins: [],
+  darkMode: ["class"],
+};
